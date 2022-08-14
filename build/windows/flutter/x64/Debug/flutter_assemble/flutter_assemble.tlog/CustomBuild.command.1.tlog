@@ -1,0 +1,28 @@
+^D:\MATA KULIAH\MATERIKULASI\INTEROPERABILITAS\PROJECT INTEROPERABILITAS\MOBILE-UI\MOBILE_UI_INTEROPERABILITAS\BUILD\WINDOWS\CMAKEFILES\F695BC1A96CED1340332009EE7EC96E2\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=D:\Mata Kuliah\Materikulasi\Interoperabilitas\Project Interoperabilitas\mobile-ui\mobile_ui_interoperabilitas" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=D:\Mata Kuliah\Materikulasi\Interoperabilitas\Project Interoperabilitas\mobile-ui\mobile_ui_interoperabilitas\windows\flutter\ephemeral" "PROJECT_DIR=D:\Mata Kuliah\Materikulasi\Interoperabilitas\Project Interoperabilitas\mobile-ui\mobile_ui_interoperabilitas" "FLUTTER_TARGET=D:\Mata Kuliah\Materikulasi\Interoperabilitas\Project Interoperabilitas\mobile-ui\mobile_ui_interoperabilitas\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\Mata Kuliah\Materikulasi\Interoperabilitas\Project Interoperabilitas\mobile-ui\mobile_ui_interoperabilitas\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\MATA KULIAH\MATERIKULASI\INTEROPERABILITAS\PROJECT INTEROPERABILITAS\MOBILE-UI\MOBILE_UI_INTEROPERABILITAS\BUILD\WINDOWS\CMAKEFILES\694FF6E1B5DB46F07A38E35C912E715F\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\MATA KULIAH\MATERIKULASI\INTEROPERABILITAS\PROJECT INTEROPERABILITAS\MOBILE-UI\MOBILE_UI_INTEROPERABILITAS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/windows" "-BD:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows" --check-stamp-file "D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

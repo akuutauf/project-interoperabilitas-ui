@@ -1,0 +1,8 @@
+D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/runner/Debug/data/icudtl.dat
+D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/runner/Debug/flutter_windows.dll
+D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf

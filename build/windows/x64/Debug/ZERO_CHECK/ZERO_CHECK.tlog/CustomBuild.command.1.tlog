@@ -1,0 +1,10 @@
+^D:\MATA KULIAH\MATERIKULASI\INTEROPERABILITAS\PROJECT INTEROPERABILITAS\MOBILE-UI\MOBILE_UI_INTEROPERABILITAS\BUILD\WINDOWS\CMAKEFILES\4781ADBCA98BE97EAACCDB4DD9E431EE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/windows" "-BD:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Mata Kuliah/Materikulasi/Interoperabilitas/Project Interoperabilitas/mobile-ui/mobile_ui_interoperabilitas/build/windows/mobile_ui_interoperabilitas.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

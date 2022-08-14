@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Mata Kuliah\Materikulasi\Interoperabilitas\Project Interoperabilitas\mobile-ui\mobile_ui_interoperabilitas\build\windows\CMakeFiles\4781adbca98be97eaaccdb4dd9e431ee\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2A9DDA20-83BB-35A2-82EC-556609F168C9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
