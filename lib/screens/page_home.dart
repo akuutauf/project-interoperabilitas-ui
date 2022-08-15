@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mobile_ui_interoperabilitas/screens/page_signup.dart';
 import 'package:mobile_ui_interoperabilitas/screens/page_signin.dart';
 
 class Home extends StatelessWidget {
@@ -51,7 +52,12 @@ class Home extends StatelessWidget {
                 width: 120,
                 margin: EdgeInsets.fromLTRB(0, 30, 5, 0),
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) {
+                      return SignUp();
+                    }));
+                  },
                   child: const Text(
                     'Register',
                     style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),

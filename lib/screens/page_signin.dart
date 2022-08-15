@@ -1,7 +1,7 @@
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:mobile_ui_interoperabilitas/screens/page_home.dart';
+import 'package:mobile_ui_interoperabilitas/screens/page_signup.dart';
 // import 'page_signup.dart';
 
 class SignIn extends StatefulWidget {
@@ -32,10 +32,7 @@ class _SignInState extends State<SignIn> {
                 margin: EdgeInsets.fromLTRB(30, 0, 30, 0),
                 child: GestureDetector(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) {
-                      return Home();
-                    }));
+                    Navigator.pop(context);
                   },
                   child: FaIcon(
                     FontAwesomeIcons.angleLeft,
@@ -135,12 +132,12 @@ class _SignInState extends State<SignIn> {
                     filled: false,
                     prefixIconColor: Colors.white,
                     suffixIcon: Container(
-                      padding: EdgeInsets.only(right: 22, top: 8),
+                      padding: EdgeInsets.only(right: 22, top: 8.5),
                       child: Container(
                           child: FaIcon(
                         FontAwesomeIcons.fingerprint,
                         color: Colors.white70,
-                        size: 24,
+                        size: 22,
                       )),
                     ),
                     hintStyle: TextStyle(
@@ -176,13 +173,21 @@ class _SignInState extends State<SignIn> {
                             fontWeight: FontWeight.w500),
                         textAlign: TextAlign.center,
                       ),
-                      Text(
-                        'Register',
-                        style: GoogleFonts.poppins(
-                            color: white_color,
-                            fontSize: 13,
-                            fontWeight: FontWeight.w700),
-                        textAlign: TextAlign.center,
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) {
+                            return SignUp();
+                          }));
+                        },
+                        child: Text(
+                          'Register',
+                          style: GoogleFonts.poppins(
+                              color: white_color,
+                              fontSize: 13,
+                              fontWeight: FontWeight.w700),
+                          textAlign: TextAlign.center,
+                        ),
                       ),
                     ],
                   )),
