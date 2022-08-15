@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:mobile_ui_interoperabilitas/screens/page_beranda.dart';
 import 'package:mobile_ui_interoperabilitas/screens/page_signup.dart';
 // import 'page_signup.dart';
 
@@ -195,7 +196,12 @@ class _SignInState extends State<SignIn> {
                 height: 55,
                 margin: EdgeInsets.fromLTRB(30, 10, 30, 0),
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) {
+                      return BerandaUser();
+                    }));
+                  },
                   child: const Text(
                     'Sign In',
                     style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
