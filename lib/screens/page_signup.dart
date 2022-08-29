@@ -15,7 +15,7 @@ class _SignUpState extends State<SignUp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(25, 23, 32, 1),
+      backgroundColor: Color.fromRGBO(49, 54, 68, 1),
       body: Container(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -37,7 +37,7 @@ class _SignUpState extends State<SignUp> {
             Container(
               margin: EdgeInsets.fromLTRB(30, 15, 30, 0),
               child: Text(
-                'Create new account.',
+                'Buat akun baru.',
                 style: GoogleFonts.poppins(
                     color: Colors.white,
                     fontSize: 25,
@@ -48,7 +48,7 @@ class _SignUpState extends State<SignUp> {
             Container(
               margin: EdgeInsets.fromLTRB(30, 15, 30, 0),
               child: Text(
-                'Please fill your identity on our form bellow.',
+                'Silakan isi identitas Anda pada formulir di bawah ini.',
                 style: GoogleFonts.poppins(
                     color: Colors.white,
                     fontSize: 18,
@@ -91,7 +91,7 @@ class _SignUpState extends State<SignUp> {
                     TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
                 decoration: InputDecoration(
                   contentPadding: EdgeInsets.fromLTRB(20, 15, 15, 20),
-                  hintText: 'Email',
+                  hintText: 'Alamat Email',
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                     borderSide:
@@ -176,7 +176,7 @@ class _SignUpState extends State<SignUp> {
                     TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
                 decoration: InputDecoration(
                   contentPadding: EdgeInsets.fromLTRB(20, 15, 15, 20),
-                  hintText: 'Confirm Password',
+                  hintText: 'Konfirmasi Password',
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                     borderSide:
@@ -224,7 +224,7 @@ class _SignUpState extends State<SignUp> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'Already have an account? ',
+                      'Sudah punya akun? ',
                       style: GoogleFonts.poppins(
                           color: Colors.white70,
                           fontSize: 13,
@@ -239,7 +239,7 @@ class _SignUpState extends State<SignUp> {
                         }));
                       },
                       child: Text(
-                        'Sign In',
+                        'Masuk',
                         style: GoogleFonts.poppins(
                             color: Colors.white,
                             fontSize: 13,
@@ -259,7 +259,7 @@ class _SignUpState extends State<SignUp> {
                   }));
                 },
                 child: const Text(
-                  'Sign Up',
+                  'Daftar Sekarang',
                   style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                 ),
                 style: ElevatedButton.styleFrom(

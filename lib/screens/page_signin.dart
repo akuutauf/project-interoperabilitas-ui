@@ -23,7 +23,7 @@ class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(25, 23, 32, 1),
+      backgroundColor: Color.fromRGBO(49, 54, 68, 1),
       body: Container(
         child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -45,7 +45,7 @@ class _SignInState extends State<SignIn> {
               Container(
                 margin: EdgeInsets.fromLTRB(30, 15, 30, 0),
                 child: Text(
-                  'Let sign you in.',
+                  'Login untuk masuk.',
                   style: GoogleFonts.poppins(
                       color: white_color,
                       fontSize: 26,
@@ -56,7 +56,7 @@ class _SignInState extends State<SignIn> {
               Container(
                 margin: EdgeInsets.fromLTRB(30, 15, 30, 0),
                 child: Text(
-                  'Welcome back.',
+                  'Selamat datang',
                   style: GoogleFonts.poppins(
                       color: white_color,
                       fontSize: 24,
@@ -67,7 +67,7 @@ class _SignInState extends State<SignIn> {
               Container(
                 margin: EdgeInsets.fromLTRB(30, 0, 30, 0),
                 child: Text(
-                  'You\'ve been missed!',
+                  'Kembali.',
                   style: GoogleFonts.poppins(
                       color: white_color,
                       fontSize: 24,
@@ -82,7 +82,7 @@ class _SignInState extends State<SignIn> {
                       color: Colors.white, fontWeight: FontWeight.w600),
                   decoration: InputDecoration(
                     contentPadding: EdgeInsets.fromLTRB(20, 15, 15, 20),
-                    hintText: 'Phone, email or username',
+                    hintText: 'Alamat email',
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                       borderSide:
@@ -149,9 +149,9 @@ class _SignInState extends State<SignIn> {
                   ),
                   validator: (String? value) {
                     if (value!.isEmpty) {
-                      return "Field is Empty";
+                      return "Password tidak boleh kosong";
                     } else if (value.length < 8) {
-                      return "Password less than 8 Characters";
+                      return "Password kurang dari 8 karakter";
                     }
                     return null;
                   },
@@ -167,7 +167,7 @@ class _SignInState extends State<SignIn> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Don\'t have an account? ',
+                        'Tidak punya akun? ',
                         style: GoogleFonts.poppins(
                             color: white_color_two,
                             fontSize: 13,
@@ -182,7 +182,7 @@ class _SignInState extends State<SignIn> {
                           }));
                         },
                         child: Text(
-                          'Register',
+                          'Daftar',
                           style: GoogleFonts.poppins(
                               color: white_color,
                               fontSize: 13,
@@ -203,7 +203,7 @@ class _SignInState extends State<SignIn> {
                     }));
                   },
                   child: const Text(
-                    'Sign In',
+                    'Masuk',
                     style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                   ),
                   style: ElevatedButton.styleFrom(
