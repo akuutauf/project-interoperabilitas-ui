@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mobile_ui_interoperabilitas/screens/page_manajemen_tugas.dart';
 import 'package:mobile_ui_interoperabilitas/screens/page_signin.dart';
 
 class BerandaUser extends StatefulWidget {
@@ -26,7 +27,7 @@ class _BerandaUserState extends State<BerandaUser> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
@@ -58,7 +59,7 @@ class _BerandaUserState extends State<BerandaUser> {
                       child: Padding(
                         padding: EdgeInsets.all(9),
                         child: FaIcon(
-                          FontAwesomeIcons.powerOff,
+                          FontAwesomeIcons.rightFromBracket,
                           color: Colors.white,
                           size: 22,
                         ),
@@ -94,7 +95,7 @@ class _BerandaUserState extends State<BerandaUser> {
               child: ElevatedButton(
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return BerandaUser();
+                    return ManajemenTugas();
                   }));
                 },
                 child: const Text(
@@ -124,7 +125,7 @@ class _BerandaUserState extends State<BerandaUser> {
                   style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                 ),
                 style: ElevatedButton.styleFrom(
-                    primary: Color.fromARGB(255, 96, 95, 103),
+                    primary: Color.fromRGBO(49, 54, 68, 1),
                     onPrimary: Colors.white,
                     fixedSize: const Size(300, 100),
                     shape: RoundedRectangleBorder(
