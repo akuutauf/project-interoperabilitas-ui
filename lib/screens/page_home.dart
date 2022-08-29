@@ -9,14 +9,14 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(25, 23, 32, 1),
+      backgroundColor: Color.fromRGBO(49, 54, 68, 1),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
             margin: EdgeInsets.fromLTRB(40, 0, 40, 20),
             child: Text(
-              'Enterprise team collaboration.',
+              'Selamat datang di Aplikasi Manajemen data tugas.',
               style: GoogleFonts.poppins(
                 color: Colors.white,
                 fontSize: 24,
@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Container(
-            margin: EdgeInsets.fromLTRB(20, 30, 20, 20),
+            margin: EdgeInsets.fromLTRB(20, 0, 20, 25),
             child: Image.asset(
               'assets/image/3d_man.png',
               scale: 13,
@@ -35,11 +35,11 @@ class Home extends StatelessWidget {
           Container(
             margin: EdgeInsets.fromLTRB(40, 30, 40, 40),
             child: Text(
-              'Bring together your files, your tools, projects and people. Including a new mobile and desktop application.',
+              'Aplikasi ini memudahkan mahasiswa jurusan untuk mengelola tugas yang diampu oleh matakuliah.',
               style: GoogleFonts.poppins(
-                color: Color.fromARGB(190, 255, 255, 255),
+                color: Colors.white,
                 fontSize: 13,
-                fontWeight: FontWeight.w300,
+                fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.center,
             ),
@@ -59,7 +59,7 @@ class Home extends StatelessWidget {
                     }));
                   },
                   child: const Text(
-                    'Register',
+                    'Daftar',
                     style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                   ),
                   style: ElevatedButton.styleFrom(
@@ -82,11 +82,11 @@ class Home extends StatelessWidget {
                     }));
                   },
                   child: const Text(
-                    'Sign In',
+                    'Masuk',
                     style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                   ),
                   style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 59, 58, 66),
+                      primary: Color.fromARGB(255, 96, 95, 103),
                       onPrimary: Colors.white,
                       fixedSize: const Size(300, 100),
                       shape: RoundedRectangleBorder(
